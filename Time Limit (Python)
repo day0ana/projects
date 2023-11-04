@@ -1,0 +1,22 @@
+# imports
+import time
+
+# initialization of variables 
+startTime = time.time()
+timeLimit = 5
+
+# ask user for guess
+guess = input("Guess a color: ")
+
+# while guess is incorrect print no
+# & if time limit is reached- say so
+while(guess.lower() != 'pink'):
+    totalTime = time.time() - startTime
+    if (totalTime >= timeLimit):
+        print("Time limit exceeded!")
+        exit()
+    print("no")
+    guess = input("Guess a color: ")
+
+# if user guesses the right color print yasss
+print("yasss")
