@@ -1,0 +1,21 @@
+# intializing People class
+class People:
+    def __init__(self, name, age, gender):
+        # attributes
+        self.name = name
+        self.age = age
+        self.gender = gender
+
+    
+    def talk(self):
+        print("My name is " + self.name + "\nMy age is " + str(self.age) + "\nMy gender is " + self.gender)
+
+# instantiate / creating an object
+newPerson = People("Bob", 35, "Male")
+# parameters 
+
+# called talk() method w/ newPerson object
+newPerson.talk()
+
+
+
