@@ -1,0 +1,26 @@
+# intializing Planet class
+
+# calculating potential energy (joules)
+# note gravity is in meters per second squared (m/s^2)
+# height in meters (m)
+# mass in kg (kilograms)
+class Planet:
+    def __init__(self, planetName, gravity, height, mass):
+        self.planetName = planetName
+        self.gravity = gravity
+        self.height = height
+        self.mass = mass
+
+    # function calculating potential energy
+    def calcPE(self):
+        potentialEnergy = self.mass * self.gravity * self.height
+        # outputing to console
+        print("On planet " + self.planetName + " the object's potential energy is " + str(potentialEnergy) + " joules")
+
+
+# instantiate / creating an object
+newPlanet = Planet("Earth", 9.8, 10, 10)
+# call calcPE() method
+newPlanet.calcPE()
+
+
