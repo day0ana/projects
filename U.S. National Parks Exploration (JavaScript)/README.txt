@@ -1,8 +1,10 @@
 # README for U.S. National Parks Exploration - DPS #
 
-This is the README file for the U.S. National Parks Exploration - DPS app. It's a great place to write
-down some notes about how your app works. For starters, here is some information
-about the other files in this folder.
+This is the README file for the U.S. National Parks Exploration - DPS app. 
+Made with Code.org
+
+Learn about the U.S. National Parks.
+Look at list and enter name to learn more
 
 The files in this folder contain everything you need to run your app:
 
