@@ -1,8 +1,9 @@
 # README for Physics Program: Energy - DPS #
 
-This is the README file for the Physics Program: Energy - DPS app. It's a great place to write
-down some notes about how your app works. For starters, here is some information
-about the other files in this folder.
+This is the README file for the Physics Program: Energy - DPS app. 
+Made in Code.org
+It focuses on learning the basics of energy in Physics. 
+Learn, see examples, and take a mini quiz.
 
 The files in this folder contain everything you need to run your app:
 
